@@ -28,3 +28,5 @@ A high-productivity text-to-speech (TTS) application built in PowerShell. Design
 
 ---
 *Developed as a utility for accessibility and productivity.*
+
+*This project demonstrates the integration of .NET classes, Win32 API (P/Invoke) for global hooks, and OCR libraries within a PowerShell environment." This highlights your technical skills to potential employers.*
