@@ -427,3 +427,20 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+
+
+# --- Custom Rules for My Free Speech Reader ---
+# Ignore the compiled executable
+*.exe
+
+# Ignore the installer created by Inno Setup
+*.iss
+Output/
+
+# Ignore log files
+*.log
+
+# Windows system files
+Thumbs.db
+Desktop.ini
