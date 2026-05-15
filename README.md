@@ -26,6 +26,25 @@ A high-productivity text-to-speech (TTS) application built in PowerShell. Design
 - `Tesseract.dll`: OCR library for image-to-text processing.
 - `tessdata/`: Language training data for the OCR engine.
 
+## How to install online Natural Voices on MyFreeSpeech App
+> when you Install the MyTTS app, it will use the locally available voices like microsoft David that usually do not sound natural. Inorder to get more natural sounding voices, follow the following steps
+
+1. Navigate to the Releases page: On the GitHub repository for NaturalVoiceSAPIAdapter <href>https://github.com/gexgd0419/NaturalVoiceSAPIAdapter</href>,
+2. look at the sidebar on the right side of the screen and click on "Releases".
+3. Download the latest Assets: Look for the most recent version (e.g., v1.x.x) and scroll down to the "Assets" section at the bottom of that post.
+4. Select the ZIP file: Download the file named something like NaturalVoiceSAPIAdapter.zip (avoid the ones that say "Source code").
+5. Extract the new ZIP: Once this new folder is unzipped, the Installer.exe and NaturalVoiceSAPIAdapter.exe files will be present.
+6. Run Installer.exe: Right-click the file and select "Run as Administrator".
+7. Install for Both: Click the Install button for both the 32-bit and 64-bit versions to ensure full compatibility.
+8. Check narrator natural voices and specify the path where you unzipped the NaturalVoiceSAPIAddapter.
+9. Select Edge Voices: Check the box for "Include Microsoft Edge natural voices" since the Narrator options are missing from the system settings.
+10. Close the widget.
+
+> After the installer finishes, these high-quality voices are registered as standard system voices. When ScreenReader3.ps1 is launched, the Update-VoiceList function will automatically find these new "Natural" entries and add them to the dropdown menu. They will thus appear under the sapi voices on our tool.
+   
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/c56d83aa-b7aa-47c1-a3a2-02c6d5f13a69" />
+
+
 ---
 *Developed as a utility for accessibility and productivity.*
 
